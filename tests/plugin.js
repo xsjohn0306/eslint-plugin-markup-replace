@@ -28,7 +28,7 @@ function execute(file, baseConfig) {
     useEslintrc: false,
     fix: baseConfig.fix,
   })
-  cli.addPlugin('php-markup', plugin)
+  cli.addPlugin('markup-replace', plugin)
   const results = cli.executeOnFiles([path.join(__dirname, 'fixtures', file)])
     .results[0]
   return baseConfig.fix ? results : results && results.messages

@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-php-markup",
+  "name": "eslint-plugin-markup-replace",
   "version": "6.0.0",
-  "description": "A eslint plugin to process PHP markup",
+  "description": "A eslint plugin to process markup",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tengattack/eslint-plugin-php-markup.git"
+    "url": "git+https://github.com/xsjohn0306/eslint-plugin-markup-replace.git"
   },
   "keywords": [
     "eslint",
     "eslintplugin",
     "php"
   ],
-  "author": "tengattack",
+  "author": "xsjohn0306",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tengattack/eslint-plugin-php-markup/issues"
+    "url": "https://github.com/xsjohn0306/eslint-plugin-markup-replace/issues"
   },
-  "homepage": "https://github.com/tengattack/eslint-plugin-php-markup#readme",
+  "homepage": "https://github.com/xsjohn0306/eslint-plugin-markup-replace#readme",
   "devDependencies": {
     "eslint": "^6.7.1",
     "eslint-plugin-html": "^6.0.0",
