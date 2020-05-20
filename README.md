@@ -13,9 +13,7 @@ npm install --save-dev eslint-plugin-markup-replace
 
 ## 使用
 
-Add `markup-replace` to the `plugins` section of your `.eslintrc` configuration file.
-
-BTW, it works like a charm together with !
+添加 `markup-replace` 到 `.eslintrc` 文件的 `plugins` 配置中
 
 ```js
 {
@@ -27,7 +25,7 @@ BTW, it works like a charm together with !
   "settings": {
     'html/html-extensions': ['.html', '.tpl'],
     'php/php-extensions': ['.tpl'],
-    'php/php-custom-markup-regex': '(<\\?[\\s\\S]*?\\?>|{[$#][\\s\\S]*?})'
+    'php/php-custom-markup-regex': '(<\\?[\\s\\S]*?\\?>|{[$#].*?})'
   },
   // ...
 }
