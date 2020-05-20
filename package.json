@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-markup-replace",
-  "version": "6.0.0",
+  "version": "1.0.0",
   "description": "一个处理后端模板表达式的eslint插件",
   "main": "lib/index.js",
   "directories": {
